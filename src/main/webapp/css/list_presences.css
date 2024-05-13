@@ -1,0 +1,27 @@
+@import "./320_480/list_presences.css" screen and (max-width: 480px);
+@import "./481_768/list_presences.css" screen and (min-width: 481px) and
+  (max-width: 768px);
+@import "./769_1024/list_presences.css" screen and (min-width: 769px) and
+  (max-width: 1024px);
+@import "./1025_1200/list_presences.css" screen and (min-width: 1025px) and
+  (max-width: 1200px);
+@import "./1201_more/list_presences.css" screen and (min-width: 1201px);
+
+.container {
+  height: auto !important;
+}
+
+.left {
+  position: sticky;
+  top: 0px;
+  left: 0;
+  margin-bottom: auto;
+}
+
+.right {
+  min-height: 100vh;
+}
+
+.right-middle {
+  min-height: 80vh;
+}
