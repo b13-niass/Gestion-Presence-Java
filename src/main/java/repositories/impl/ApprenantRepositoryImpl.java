@@ -7,6 +7,10 @@ import java.util.List;
 
 public class ApprenantRepositoryImpl implements ApprenantRepository {
 
+    public ApprenantRepositoryImpl(DaoImpl dao) {
+
+    }
+
     @Override
     public int create(Apprenant apprenant) {
         return 0;

@@ -14,6 +14,7 @@ public class UserBuilder {
     private String lieuNaissance;
     private String numeroCNI;
     private String image;
+    private int role;
 
     public int getId() {
         return id;
@@ -102,6 +103,15 @@ public class UserBuilder {
 
     public UserBuilder setImage(String image) {
         this.image = image;
+        return this;
+    }
+
+    public int getRole() {
+        return role;
+    }
+
+    public UserBuilder setRole(int role) {
+        this.role = role;
         return this;
     }
 

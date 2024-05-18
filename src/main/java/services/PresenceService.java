@@ -1,5 +1,4 @@
 package services;
 
-public class PresenceService {
-
+public interface PresenceService {
 }

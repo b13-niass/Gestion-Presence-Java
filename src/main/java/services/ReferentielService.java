@@ -1,5 +1,4 @@
 package services;
 
-public class ReferentielService {
-
+public interface ReferentielService {
 }

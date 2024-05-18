@@ -3,9 +3,19 @@ package model.builder;
 import model.HeureGes;
 
 public class HeureGesBuilder {
+    private int id;
     private int h;
     private int m;
     private int s;
+
+    public int getId() {
+        return id;
+    }
+
+    public HeureGesBuilder setId(int id) {
+        this.id = id;
+        return this;
+    }
 
     public int getH() {
         return h;

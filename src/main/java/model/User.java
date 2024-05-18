@@ -13,6 +13,7 @@ public class User {
     private String lieuNaissance;
     private String numeroCNI;
     private String image;
+    private int role;
 
     public User(UserBuilder userBuilder) {
         this.id = userBuilder.getId();
@@ -25,6 +26,7 @@ public class User {
         this.lieuNaissance = userBuilder.getLieuNaissance();
         this.numeroCNI = userBuilder.getNumeroCNI();
         this.image = userBuilder.getImage();
+        this.role = userBuilder.getRole();
     }
 
     public static UserBuilder getBuilder(){
